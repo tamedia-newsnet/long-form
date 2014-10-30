@@ -1,0 +1,447 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	margin:0;
+	padding:0;
+	width:100%;
+	max-width: 100%;
+}
+
+p{
+	font-family: georgia;
+	font-size: 24px;
+	text-decoration: none;
+	margin:50px auto 80px auto;
+	text-align:left;
+	float: left;
+	width:65%;
+	line-height: 150%;
+}
+
+
+h1{
+	font-family:georgia;
+	font-size:48px;
+	text-decoration: none;
+	text-align: left;
+	color:#303030;
+	margin:50px 0px 0px 50px;
+}
+
+h2{
+	font-family:georgia;
+	width:60%;
+	font-size:48px;
+	text-decoration: none;
+	text-align: left;
+	color:#303030;
+	margin:140px 0px 80px 0px;
+}
+
+a{
+	text-decoration: none;
+	border:none;
+}
+
+img{
+		width:400px;
+
+}
+
+
+header{
+	height: 50px;
+	width:100%;
+	background:#e30613;
+	margin:0px;
+	position:fixed;
+	z-index: 3;
+	display:block;
+}
+	
+	nav{
+		width:100%;
+		max-width: 100%;
+
+	}
+		.logo{
+			height:40px;
+			width:auto;
+			margin:5px 0px 5px 15px;
+		}
+
+		/*icones socials*/
+
+		.social_icon{
+			height:40px;
+			width:auto;
+			float:right;
+			margin:5px 20px 0px 0px;
+		}
+
+		/*
+		.wrapper .shares{
+			width:100px;
+			height:70px;
+		}
+		*/
+
+		#scroll{
+			height:60px;
+			margin-top:-50px;
+			width:100%;
+			background: url(../_img/scroll.png) no-repeat bottom center;
+			position: relative;
+			z-index: 2;
+		}
+
+		#scroll:hover{
+			height:60px;
+			margin-top:-60px;
+			width:100%;
+			background: url(../_img/scroll.png) no-repeat bottom center;
+			position: relative;
+			z-index: 2;
+		}
+
+		#scroll a{
+			text-align: center;
+			display:block;
+			bottom:0;
+			position:absolute;
+			left:48%;
+			color:transparent;
+			width:60px;
+			height:40px;
+		}
+#content{
+	height:100%;
+	width:100%;
+}
+
+.container.text-section{
+	margin:0 auto 0 auto;
+	padding:0;
+}	
+
+	.warpertitle-section1{
+		/* background:url(_img/img2.jpg) no-repeat center top;
+		-webkit-background-size: cover; 
+		-moz-background-size: cover; 
+		-ms-background-size: cover; 
+		-o-background-size: cover; 
+		background-size: cover;
+		margin:0px 0px 60px 0px; */
+		margin:0px 0px 100px 0px;
+	}
+
+		.warpertitle-section1 h1{
+			margin:60px 100px 0px 0px;
+			font-size: 100px;
+			font-weight: bold;
+
+		}
+
+		.warpertitle-section1 h2{
+			margin:10px 100px 30px 0px;
+			font-size: 60px;
+			width:auto;
+			font-weight: bold;
+
+		}
+
+		.warpertitle-section1 i{
+			text-align: right;
+			float:right;
+			margin:0px 100px 50px 0px;
+			font-size: 20px;
+			width: 100%;
+		}
+
+		.warpertitle-section1 p{
+			text-align: right;
+			float:right;
+			margin:0px 100px 0px 0px;
+			font-size: 24px;
+			width:60%;
+
+		}
+
+		.warpertitle-section1 h1,
+		.warpertitle-section1 h2,
+		.warpertitle-section1 i,
+		.warpertitle-section1 p{
+			position:relative;
+			text-align: right;
+			z-index:3;
+			color:white;
+		}
+
+
+	/*	.warp_img{
+   			top:0;
+    		left:0;
+    		z-index:-1;
+		}
+*/
+	.warp_text{
+		margin:-600px 0px 0px 400px;
+		height:auto;
+		width:;
+		position:absolute;
+		z-index: 2;
+		color:white;
+		text-align: right;
+		border-top:1px solid white;
+		border-bottom:1px solid white;
+		border-left: none;
+		background:rgba(0,0,0,0.0);
+		}
+
+.warp_img{
+ /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+  display:block;	
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.warpervideo-section{
+	background:black;
+	width:100%;
+	height:auto;
+	min-height:100%;
+}
+
+	.warpervideo-section .warp_video{
+		height:auto;
+		width:auto;
+		margin:90px auto 90px 200px ;
+	}
+
+	img.column_2img-left {
+		height:auto;
+		width:100%;
+		margin:50px auto 50px auto;
+	}
+
+	img.column_2img-right {
+		height:auto;
+		width:100%;
+		margin:50px auto 50px auto;
+	}
+
+blockquote{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	text-align: left;
+	width:60%;
+	margin:50px 0px 50px 0px;
+	padding:50px 0px 50px 0px;
+	font-family:georgia;
+	font-size: 36px;
+	font-style: italic;
+	border-left:none;
+}
+
+	blockquote footer{
+		text-align: right;
+		margin:20px 0px 0px 0px;
+		font-size: 24px;
+		font-style: italic;
+	}
+
+#titre{
+	margin:-800px 0px 0px 0px;
+	height:auto;
+	width:;
+	position:absolute;
+	z-index: 2;
+}
+
+
+/* Galerie */
+
+.container.gallery-section{
+	margin:0 auto 0 auto;
+	padding:0;
+	width:87%;
+}	
+
+
+/***************************************************
+
+MEDIA QUERIES
+
+***************************************************/
+
+/* IPAD 1 et 2 */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  
+{ 
+
+	#titre{
+		margin:-550px 0px 0px 0px;
+	}
+
+	.warp_img{
+ 		/* Set rules to fill background */
+	  	min-height: 100%;
+  		min-width: 1024px;
+  		display:block;	
+
+  		/* Set up proportionate scaling */
+  		width: 100%;
+  		height: auto;
+	
+  		/* Set up positioning */
+  		top: 0;
+  		left: 0;
+  		z-index: 1;
+	}
+
+	.warp_text{
+		margin:-550px 0px 0px 350px;
+		float:right;
+	}
+
+	.container .gallery-section{
+		margin:0;
+		padding:0;
+		width:100%;
+	}	
+
+	.warpervideo-section .warp_video{
+		height:auto;
+		width:auto;
+		margin:90px auto 90px 100px ;
+	}
+}
+
+/* IPHONE PORTRAIT AND LANDSCAPE */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+
+
+	.logo{
+		width:45%;
+		height:auto;
+		margin:10px 0px 0px 0px;
+	}
+
+	.social_icon{
+		height:auto;
+		width:30%;
+	}
+
+	#warptitle-section1{
+		margin-bottom:0px;
+	}
+
+	h2{
+		margin-left: 10px;
+	}
+
+	p{
+		margin:0 0 0 10px;
+	}
+
+	#titre{
+		margin:-650px 0px 0px 0px;
+		height:auto;
+		width:;
+		position:absolute;
+		z-index: 2;
+	}
+
+		#titre h1{
+			font-size: 60px;
+			margin:80px 50px 0px 0px;
+		}
+
+		#titre h2{
+			font-size: 40px;
+			margin:0px 50px 0px 0px;
+		}
+
+		#titre i{
+			font-size:16px;
+			margin:20px 50px 20px 0px;
+
+		}
+
+		#titre p {
+			font-size: 16px;
+			margin:0px 50px 0px 0px;
+		}
+
+	h2{
+		margin-top:20px;
+	}
+
+	p{
+		width:90%;
+	}
+
+	blockquote{
+		font-size: 20px;
+		width:90%;
+	}
+
+		blockquote footer {
+			font-size: 18px;
+		}
+
+	.warp_text{
+		margin:-300px 0px 0px 20px;
+		width:80%;
+		float:right;
+	}
+
+		.warp_img{
+ 		/* Set rules to fill background */
+	  	min-height: 700px;
+  		min-width: 100%;
+  		display:block;
+  		background: center;	
+
+  		/* Set up proportionate scaling */
+  		width: 100%;
+  		height: auto;
+	
+  		/* Set up positioning */
+  		top: 0;
+  		left: 0;
+  		z-index: 1;
+	}
+
+	.warpervideo-section .warp_video{
+		height:auto;
+		width:90%;
+		margin:90px auto 90px 0px ;
+	}
+
+	.container .gallery-section{
+		width:80%;
+	}
+
+	img.thumbnails {
+		width:90%;
+		height:auto;
+		margin:0px 5px 5px 0px;
+	}
+}
+
